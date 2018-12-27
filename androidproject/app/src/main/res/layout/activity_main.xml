@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back1">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+    android:layout_weight="2"
+
+
+    >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="#0b1566"
+           android:textSize="30dp"
+           android:layout_marginTop="10dp"
+           android:id="@+id/num1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2"
+            android:textSize="30dp"
+            android:textColor="#232321"
+            android:layout_below="@+id/num1"
+            android:id="@+id/num2"
+            android:singleLine="true"
+          />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_below="@+id/num2"
+            android:layout_marginLeft="80dp"
+            android:text="写入文件"
+            android:id="@+id/num3"
+            android:background="#e4e7fd"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="#e4e7fd"
+            android:layout_below="@+id/num2"
+            android:text="读取文件"
+            android:layout_toRightOf="@+id/num3"
+            android:id="@+id/num4"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mySpinner"
+            android:textSize="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/num3"
+            android:entries="@array/spingarr"
+            />
+    </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="2"
+         >
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:textColor="#38e0e0"
+             android:textSize="30dp"
+             android:id="@+id/num5"
+             android:background="@drawable/border3"/>
+     </RelativeLayout>
+
+
+</LinearLayout>

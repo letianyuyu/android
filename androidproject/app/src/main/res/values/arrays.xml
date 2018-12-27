@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>私有模式</item>
+        <item>追加模式</item>
+        <item>全局读模式</item>
+        <item>全局写模式</item>
+    </string-array>
+</resources>

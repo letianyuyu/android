@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@drawable/back3">
+
+<TableLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,3">
+    <TableRow>
+        <TextView />
+       <TextView
+           android:textSize="25dp"
+           android:text="姓名"/>
+        <EditText
+            android:background="@drawable/border2"
+            android:minWidth="200dp"
+            android:id="@+id/name"/>
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView
+            android:textSize="25dp"
+            android:text="年龄"/>
+        <EditText
+            android:background="@drawable/border2"
+            android:id="@+id/age"
+           />
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView
+            android:textSize="25dp"
+            android:text="身高"/>
+        <EditText
+            android:background="@drawable/border2"
+            android:id="@+id/height"
+            android:hint="以厘米为单位"
+            />
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView
+            android:textSize="25dp"
+            android:text="体重"/>
+        <EditText
+            android:background="@drawable/border2"
+            android:id="@+id/weight"
+            android:hint="以公斤为单位"
+          />
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView
+            android:textSize="25dp"
+            android:text="学校"/>
+        <EditText
+            android:background="@drawable/border2"
+            android:id="@+id/school"
+           />
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView
+            android:textSize="25dp"
+            android:text="学院"/>
+        <EditText
+            android:background="@drawable/border2"
+            android:id="@+id/apart"
+            />
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView
+            android:textSize="25dp"
+            android:text="班级"/>
+        <EditText
+            android:background="@drawable/border2"
+            android:id="@+id/class1"
+            />
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="是否保存"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/log"/>
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+       <Button
+          android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_span="2"
+           android:text="登入"
+           android:id="@+id/dengru"
+           android:background="#c4e8ff"
+           android:textColor="#f3bc8f"
+           android:textSize="30dp"/>
+        <TextView />
+    </TableRow>
+</TableLayout>
+</LinearLayout>
